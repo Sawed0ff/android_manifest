@@ -15,7 +15,7 @@
            fetch="https://github.com" />
 
    <remote  name="TheMuppets"
-           fetch="https://github.com" />
+           fetch="https://github.com/themuppets" />
            
    <remote  name="tv"
            fetch="https://github.com/Team-Validus/" />
@@ -39,7 +39,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="Sawed/android_development" groups="pdk-cw-fs" remote="Sawed" revision="lollipop" />
  
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
