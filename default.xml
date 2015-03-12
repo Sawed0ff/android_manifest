@@ -19,6 +19,9 @@
            
    <remote  name="tv"
            fetch="https://github.com/Team-Validus/" />
+           
+   <remote name="vr"
+          fetch="https://github.com/VanirAOSP/" />
 
   <project path="build" name="Sawed/android_build" groups="pdk,tradefed" remote="github" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
