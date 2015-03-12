@@ -436,7 +436,7 @@
   <!-- Custom projects -->
 
   <!-- Sawed0ff vendor -->
-  <project path="vendor/sawed" name="Sawed0ff/android_vendor_eos" remote="github" revision="lollipop" />
+  <project path="vendor/sawed" name="Sawed0ff/android_vendor_sawed" remote="github" revision="lollipop" />
 
   <!-- External -->
   <project path="external/android-visualizer" name="Sawed/android_external_android-visualizer" remote="github" revision="lollipop" />
