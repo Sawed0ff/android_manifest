@@ -439,7 +439,6 @@
   <!-- External -->
   <project path="external/android-visualizer" name="Sawed/android_external_android-visualizer" remote="github" revision="lollipop" />
   <project path="external/busybox" name="Sawed/android_external_busybox" remote="Sawed" revision="lollipop" />
-  <project path="external/google" name="Sawed/android_external_google" remote="github" revision="lollipop" />
 
   <!-- Su -->
   <project path="system/extras/su" name="Sawed/android_system_extras_su" remote="github" revision="lollipop" />
