@@ -416,7 +416,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="Sawed/android_system_netd" groups="pdk" remote="github" revision="lollipop" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="Sawed/android_system_vold" groups="pdk" remote="github" revision="lollipop" />
+  <project path="system/vold" name="Sawed0ff/android_system_vold" groups="pdk" remote="github" revision="lollipop" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
