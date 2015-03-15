@@ -434,7 +434,7 @@
   <!-- Custom projects -->
 
   <!-- Sawed0ff vendor -->
-  <project path="vendor/sawed" name="Sawed0ff/android_vendor_sawed" remote="github" revision="lollipop" />
+  <project path="vendor/sawed" name="Sawed0ff/android_vendor_sawed" remote="Sawed" revision="lollipop" />
 
   <!-- External -->
   <project path="external/android-visualizer" name="Sawed/android_external_android-visualizer" remote="github" revision="lollipop" />
@@ -449,9 +449,9 @@
   <!--Additional Repos-->
   
   <!--G3-->
-  <project path="device/lge/ls990" name="Sawed/android_device_lge_ls990" remote="sawed" revision="lollipop" />
-  <project path="device/lge/g3-common" name="Sawed/android_device_lge_g3-common" remote="sawed" revision="lollipop" />
-  <project path="kernel/lge/g3" name="Sawed/android_kernel_lge_g3" remote="sawed" revision="lollipop" />
+  <project path="device/lge/ls990" name="Sawed/android_device_lge_ls990" remote="Sawed" revision="lollipop" />
+  <project path="device/lge/g3-common" name="Sawed/android_device_lge_g3-common" remote="Sawed" revision="lollipop" />
+  <project path="kernel/lge/g3" name="Sawed/android_kernel_lge_g3" remote="Sawed" revision="lollipop" />
 
 
   <!-- CM Hardware -->
