@@ -409,7 +409,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="Sawed/android_system_core" groups="pdk" remote="github" revision="lollipop" />
+  <project path="system/core" name="Sawed/android_system_core" remote="Sawed" revision="lollipop" />
 
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
