@@ -448,6 +448,11 @@
 
   <!--Additional Repos-->
   
+  <!--G3-->
+  <project path="device/lge/ls990" name="Sawed/android_device_lge_ls990" remote="sawed" revision="lollipop" />
+  <project path="device/lge/g3-common" name="Sawed/android_device_lge_g3-common" remote="sawed" revision="lollipop" />
+  <project path="kernel/lge/g3" name="Sawed/android_kernel_lge_g3" remote="sawed" revision="lollipop" />
+
 
   <!-- CM Hardware -->
   <project path="frameworks/opt/hardware" name="Sawed0ff/android_frameworks_opt_hardware" remote="Sawed" revision="lollipop" />
