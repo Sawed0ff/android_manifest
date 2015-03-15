@@ -296,7 +296,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="Sawed-Legacy/android_frameworks_opt_chips" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs"  />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
@@ -449,9 +449,9 @@
   <!--Additional Repos-->
   
   <!--G3-->
-  <project path="device/lge/ls990" name="Sawed/android_device_lge_ls990" remote="Sawed" revision="lollipop" />
-  <project path="device/lge/g3-common" name="Sawed/android_device_lge_g3-common" remote="Sawed" revision="lollipop" />
-  <project path="kernel/lge/g3" name="Sawed/android_kernel_lge_g3" remote="Sawed" revision="lollipop" />
+  <project path="device/lge/ls990" name="Sawed0ff/android_device_lge_ls990" remote="Sawed" revision="lollipop" />
+  <project path="device/lge/g3-common" name="Sawed0ff/android_device_lge_g3-common" remote="Sawed" revision="lollipop" />
+  <project path="kernel/lge/g3" name="Sawed0ff/android_kernel_lge_g3" remote="Sawed" revision="lollipop" />
 
 
   <!-- CM Hardware -->
