@@ -23,7 +23,7 @@
    <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
 
-  <project path="build" name="android_build" remote="Sawed" revision="lollipop" >
+  <project path="build" name="sawed0ff/android_build" remote="Sawed" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -37,7 +37,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="android_development" remote="Sawed" revision="lollipop" />
+  <project path="development" name="sawed0ff/android_development" remote="Sawed" revision="lollipop" />
  
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
