@@ -8,12 +8,10 @@
            remote="aosp"
            sync-j="4" />
 
-  <remote  name="github"
+  <remote  name="Sawed"
            fetch="https://github.com" />
 
-  <remote  name="Sawed"
-           fetch="https://github.com/Sawed0ff" />
-
+ 
    <remote  name="TheMuppets"
            fetch="https://github.com/themuppets" />
            
