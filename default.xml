@@ -23,7 +23,7 @@
    <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
 
-  <project path="build" name="Sawed0ff/android_build" groups="pdk,tradefed" remote="Sawed" revision="lollipop" >
+  <project path="build" name="Sawed0ff/android_build" remote="Sawed" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -321,7 +321,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
  
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="Sawed0ff/android_hardware_libhardware" remote="sawed" revision="lollipop" />
+  <project path="hardware/libhardware" name="Sawed0ff/android_hardware_libhardware" remote="Sawed" revision="lollipop" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
@@ -400,9 +400,9 @@
 
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="Sawed0ff/android_system_netd" groups="pdk" remote="Sawed" revision="lollipop" />
+  <project path="system/netd" name="Sawed0ff/android_system_netd" remote="Sawed" revision="lollipop" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="Sawed0ff/android_system_vold" groups="pdk" remote="github" revision="lollipop" />
+  <project path="system/vold" name="Sawed0ff/android_system_vold"  remote="Sawed" revision="lollipop" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
