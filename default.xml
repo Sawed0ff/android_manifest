@@ -37,7 +37,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="Sawed0ff/android_development" groups="pdk-cw-fs" remote="Sawed" revision="lollipop" />
+  <project path="development" name="Sawed0ff/android_development" remote="Sawed" revision="lollipop" />
  
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
@@ -185,7 +185,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libpng" name="Sawed/android_external_libpng" groups="pdk"  />
+  <project path="external/libpng" name="Sawed/android_external_libpng" remote="sawed" revision="lollipop"  />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
@@ -281,7 +281,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="Sawed0ff/android_frameworks_base" remote="sawed" revision="lollipop" />
+  <project path="frameworks/base" name="Sawed0ff/android_frameworks_base" remote="Sawed" revision="lollipop" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -290,7 +290,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="Sawed0ff/android_frameworks_native"  remote="sawed" revision="lollipop" />
+  <project path="frameworks/native" name="Sawed0ff/android_frameworks_native"  remote="Sawed" revision="lollipop" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -326,7 +326,7 @@
   
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="Sawed0ff/android_hardware_qcom_display" groups="qcom,qcom_display" remote="sawed" revision="lollipop" />
+  <project path="hardware/qcom/display" name="Sawed0ff/android_hardware_qcom_display" remote="Sawed" revision="lollipop" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
@@ -341,7 +341,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="Sawed0ff/android_libcore" groups="pdk" remote="Sawed" revision="lollipop" />
+  <project path="libcore" name="Sawed0ff/android_libcore" remote="Sawed" revision="lollipop" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   
@@ -400,7 +400,7 @@
 
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="Sawed/android_system_netd" groups="pdk" remote="github" revision="lollipop" />
+  <project path="system/netd" name="Sawed0ff/android_system_netd" groups="pdk" remote="Sawed" revision="lollipop" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="Sawed0ff/android_system_vold" groups="pdk" remote="github" revision="lollipop" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
