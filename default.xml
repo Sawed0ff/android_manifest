@@ -23,12 +23,12 @@
    <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
 
-  <project path="build" name="Sawed/android_build" groups="pdk,tradefed" remote="github" revision="lollipop" >
+  <project path="build" name="Sawed0ff/android_build" groups="pdk,tradefed" remote="Sawed" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="Sawed/android_bionic" groups="pdk" remote="Sawed" revision="lollipop" />
+  <project path="bionic" name="Sawed0ff/android_bionic" remote="Sawed" revision="lollipop" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -37,7 +37,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="Sawed/android_development" groups="pdk-cw-fs" remote="Sawed" revision="lollipop" />
+  <project path="development" name="Sawed0ff/android_development" groups="pdk-cw-fs" remote="Sawed" revision="lollipop" />
  
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
@@ -147,7 +147,7 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/icu" name="Sawed/android_external_icu" groups="pdk" remote="Sawed" revision="lollipop" />
+  <project path="external/icu" name="Sawed0ff/android_external_icu" remote="Sawed" revision="lollipop" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
@@ -281,7 +281,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="Sawed/android_frameworks_base" groups="pdk-cw-fs" remote="github" revision="lollipop" />
+  <project path="frameworks/base" name="Sawed0ff/android_frameworks_base" remote="sawed" revision="lollipop" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -290,12 +290,12 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="Sawed/android_frameworks_native" groups="pdk" remote="github" revision="lollipop" />
+  <project path="frameworks/native" name="Sawed0ff/android_frameworks_native"  remote="sawed" revision="lollipop" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/chips" name="Sawed-Legacy/android_frameworks_opt_chips" groups="pdk-cw-fs" />
+  
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs"  />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
@@ -307,7 +307,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="Sawed/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lollipop" />
+  <project path="frameworks/opt/telephony" name="Sawed0ff/android_frameworks_opt_telephony"  remote="sawed" revision="lollipop" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -319,27 +319,14 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
-  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
+ 
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="Sawed/hardware_libhardware" groups="pdk" remote="github" revision="lollipop" />
+  <project path="hardware/libhardware" name="Sawed0ff/android_hardware_libhardware" remote="sawed" revision="lollipop" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="Sawed/android_hardware_qcom_display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display" name="Sawed0ff/android_hardware_qcom_display" groups="qcom,qcom_display" remote="sawed" revision="lollipop" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
@@ -354,7 +341,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="Sawed/android_libcore" groups="pdk" remote="Sawed" revision="lollipop" />
+  <project path="libcore" name="Sawed0ff/android_libcore" groups="pdk" remote="Sawed" revision="lollipop" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   
@@ -437,11 +424,10 @@
   <project path="vendor/sawed" name="Sawed0ff/android_vendor_sawed" remote="Sawed" revision="lollipop" />
 
   <!-- External -->
-  <project path="external/android-visualizer" name="Sawed/android_external_android-visualizer" remote="github" revision="lollipop" />
-  <project path="external/busybox" name="Sawed/android_external_busybox" remote="Sawed" revision="lollipop" />
+  <project path="external/busybox" name="Sawed0ff/android_external_busybox" remote="Sawed" revision="lollipop" />
 
   <!-- Su -->
-  <project path="system/extras/su" name="Sawed/android_system_extras_su" remote="github" revision="lollipop" />
+  <project path="system/extras/su" name="Sawed0ff/android_system_extras_su" remote="sawed" revision="lollipop" />
 
   <!-- Apps -->
  
@@ -462,7 +448,7 @@
 
  <!--Vendor Repos-->
 
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="themuppets" revision="cm-12.0" />
   
 
   <!-- SABERMOD ROM TOOLCHAINS -->
@@ -481,5 +467,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="linaro-arm-eabi-4.8" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="linaro-arm-eabi-4.9" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
+
+ <project path="hardware/qcom/media-caf/msm8974" name="Sawed0ff/hardware_qcom_media-caf" remote="sawed" revision="lollipop" />
+ <project path="hardware/qcom/display-caf/msm8974" name="Sawed0ff/hardware_qcom_display-caf" remote="sawed" revision="lollipop" />
+ <project path="hardware/qcom/audio-caf/msm8974" name="Sawed0ff/hardware_qcom_audio-caf" remote="sawed" revision="lollipop" />
+ <project path="device/qcom/common" name="Sawed0ff/device_qcom_common" remote="sawed" revision="lollipop" />
 
 </manifest>
