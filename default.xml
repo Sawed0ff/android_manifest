@@ -445,11 +445,7 @@
 
  <!--Vendor Repos-->
 
-  <!-- SABERMOD ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" /> 
-  
-  <!-- SAMBERMOD KERNEL TOOLCAHINS -->
+   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" /> 
   
