@@ -446,10 +446,10 @@
 
  
   <!-- External -->
-  <project path="external/busybox" name="android_external_busybox" remote="Sawed" revision="lollipop" />
+  <project path="external/busybox" name="android_external_busybox" remote="Sawed0ff" revision="lollipop" />
 
   <!-- Su -->
-  <project path="system/extras/su" name="android_system_extras_su" remote="Sawed" revision="lollipop" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="Sawed0ff" revision="lollipop" />
 
   <!-- Apps -->
  
@@ -457,16 +457,16 @@
   <!--Additional Repos-->
   
   <!--G3-->
-  <project path="device/lge/ls990" name="android_device_lge_ls990" remote="Sawed" revision="lollipop" />
-  <project path="device/lge/g3-common" name="android_device_lge_g3-common" remote="Sawed" revision="lollipop" />
-  <project path="kernel/lge/g3" name="android_kernel_lge_g3" remote="Sawed" revision="lollipop" />
+  <project path="device/lge/ls990" name="android_device_lge_ls990" remote="Sawed0ff" revision="lollipop" />
+  <project path="device/lge/g3-common" name="android_device_lge_g3-common" remote="Sawed0ff" revision="lollipop" />
+  <project path="kernel/lge/g3" name="android_kernel_lge_g3" remote="Sawed0ff" revision="lollipop" />
 
 
   <!-- CM Hardware -->
-  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="Sawed" revision="lollipop" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="Sawed0ff" revision="lollipop" />
 
   <!-- QCOM Sepolicy -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="Sawed" revision="lollipop" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="Sawed0ff" revision="lollipop" />
 
  <!--Vendor Repos-->
 
@@ -490,9 +490,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="linaro-arm-eabi-4.9" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
 
- <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media-caf" remote="Sawed" revision="lollipop" />
- <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display-caf" remote="Sawed" revision="lollipop" />
- <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio-caf" remote="Sawed" revision="lollipop" />
- <project path="device/qcom/common" name="device_qcom_common" remote="Sawed" revision="lollipop" />
+ <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media-caf" remote="Sawed0ff" revision="lollipop" />
+ <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display-caf" remote="Sawed0ff" revision="lollipop" />
+ <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio-caf" remote="Sawed0ff" revision="lollipop" />
+ <project path="device/qcom/common" name="device_qcom_common" remote="Sawed0ff" revision="lollipop" />
 
 </manifest>
