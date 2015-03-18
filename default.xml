@@ -434,14 +434,14 @@
  <!--Vendor Repos-->
 
    <!-- SAMBERMOD KERNEL TOOLCAHINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10-sm" remote="tv" revision="master" />  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" /> 
   
   <!-- LINARO KERNEL TOOLCHAINS -->  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
 
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8-linaro" remote="tv" revision="lp" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9-linaro" remote="tv" revision="lp" />
 
  
  
