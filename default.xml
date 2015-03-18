@@ -444,10 +444,6 @@
 
  <!-- Custom projects -->
 
- 
-  <!-- External -->
-  <project path="external/busybox" name="android_external_busybox" remote="Sawed0ff" revision="lollipop" />
-
   <!-- Su -->
   <project path="system/extras/su" name="android_system_extras_su" remote="Sawed0ff" revision="lollipop" />
 
