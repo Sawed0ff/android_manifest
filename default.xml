@@ -12,7 +12,7 @@
            sync-j="4" />
            
   <remote  name="tm"
-         fetch="https://github.com/themuppets" />
+         fetch="https://github.com/TheMuppets" />
            
    <remote  name="tv"
          fetch="https://github.com/Team-Validus/" />
