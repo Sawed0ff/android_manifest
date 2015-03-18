@@ -439,5 +439,5 @@
  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display-caf" remote="Sawed0ff" revision="lollipop" />
  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio-caf" remote="Sawed0ff" revision="lollipop" />
  <project path="device/qcom/common" name="device_qcom_common" remote="Sawed0ff" revision="lollipop" />
-
+<project path="external/sepolicy" name="android_external_sepolicy" remote="Sawed0ff" revision="lollipop" />
 </manifest>
