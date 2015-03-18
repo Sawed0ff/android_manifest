@@ -409,6 +409,7 @@
   <project path="vendor/sawed" name="android_vendor_sawed" remote="Sawed0ff" revision="lollipop" />
 
  <!-- Custom projects -->
+  <project path="platform_manifest" name="android_manifest" remote="Sawed0ff" revision="lollipop" />
 
   <!-- Su -->
   <project path="system/extras/su" name="android_system_extras_su" remote="Sawed0ff" revision="lollipop" />
