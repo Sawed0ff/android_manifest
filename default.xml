@@ -11,9 +11,7 @@
            remote="aosp"
            sync-j="4" />
            
-  <remote  name="tm"
-         fetch="https://github.com/TheMuppets" />
-           
+ 
    <remote  name="tv"
          fetch="https://github.com/Team-Validus/" />
            
@@ -447,8 +445,7 @@
 
  <!--Vendor Repos-->
 
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-12.0" />
-  
+    <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
 
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
