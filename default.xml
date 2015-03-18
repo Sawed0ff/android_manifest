@@ -441,6 +441,10 @@
   <!-- LINARO KERNEL TOOLCHAINS -->  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
 
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vr" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="vr" />
+<project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" />
+
  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media-caf" remote="Sawed0ff" revision="lollipop" />
  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display-caf" remote="Sawed0ff" revision="lollipop" />
  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio-caf" remote="Sawed0ff" revision="lollipop" />
