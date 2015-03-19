@@ -433,7 +433,6 @@
  <!--Vendor Repos-->
 
    <!-- SAMBERMOD KERNEL TOOLCAHINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10-sm" remote="tv" revision="master" />  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" /> 
   
   <!-- LINARO KERNEL TOOLCHAINS -->  
