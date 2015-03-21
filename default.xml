@@ -19,9 +19,7 @@
         fetch="https://github.com/VanirAOSP/" />
 
 
-  <project path="build" name="android_build" remote="Sawed0ff" revision="lollipop" >
-<copyfile src="core/root.mk" dest="Makefile" />
-</project>
+ 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="Sawed0ff" revision="lollipop" />
   
