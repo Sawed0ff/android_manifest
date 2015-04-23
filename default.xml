@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-  <remote name="Sawed0ff"
-           fetch="https://github.com/Sawed0ff/" /> 
-  <remote name="github"
+   <remote  name="github"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-5.1.0_r1"
+           
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+  <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="4" />
            
- 
-   <remote  name="tv"
-         fetch="https://github.com/Team-Validus/" />
+  <remote name="Sawed0ff"
+        fetch="https://github.com/Sawed0ff/" /> 
+
+ <remote name="cm"
+        fetch="https://github.com/cyanogenmod/" />
+        
+ <remote  name="tv"
+        fetch="https://github.com/Team-Validus/" />
            
-   <remote name="vr"
+ <remote name="vr"
         fetch="https://github.com/VanirAOSP/" />
 
 
@@ -297,23 +302,11 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
-
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
+
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
- 
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -414,7 +407,46 @@
   <project path="system/extras/su" name="android_system_extras_su" remote="Sawed0ff" revision="lollipop" />
 
   <!-- Apps -->
- 
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
+
+  
+  <!--*********** CyanogenMod ********************-->
+
+  <!-- External -->
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" remote="cm" revision="cm-12.1" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-12.1" />
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="cm" revision="cm-12.1" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-12.1" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-12.1" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" remote="cm" revision="cm-12.1" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" remote="cm" revision="cm-12.1" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="cm" revision="cm-12.1" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
+  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" remote="cm" revision="cm-12.1" />
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-12.1" />
+  
+  <!-- Hardware for caf -->
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-12.0" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-12.1" />
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-12.1" groups="invensense" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-12.1" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-12.1" groups="pdk" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" groups="qcom,qcom_audio" revision="cm-12.1" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" groups="qcom,qcom_audio" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-12.1" groups="qcom" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-12.1" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="cm" groups="qcom,qcom_display" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" groups="qcom" revision="cm-12.1" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" groups="qcom" revision="cm-12.1" />
+  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.1" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" groups="qcom_wlan" revision="cm-12.1" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" revision="cm-12.1" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" revision="cm-12.0-caf" />
+
 
   <!--Additional Repos-->
   
@@ -423,10 +455,7 @@
   <project path="device/lge/g3-common" name="android_device_lge_g3-common" remote="Sawed0ff" revision="lollipop" />
   <project path="kernel/lge/g3" name="android_kernel_lge_g3" remote="Sawed0ff" revision="lollipop" />
 
-
-  <!-- CM Hardware -->
-  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="Sawed0ff" revision="lollipop" />
-
+  
   <!-- QCOM Sepolicy -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="Sawed0ff" revision="lollipop" />
 
@@ -439,10 +468,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
 
  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vr" revision="L5" />
-   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />
-  
- <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media-caf" remote="Sawed0ff" revision="lollipop" />
- <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display-caf" remote="Sawed0ff" revision="lollipop" />
- <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio-caf" remote="Sawed0ff" revision="lollipop" />
+
  <project path="device/qcom/common" name="device_qcom_common" remote="Sawed0ff" revision="lollipop" />
 </manifest>
