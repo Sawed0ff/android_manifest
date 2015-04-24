@@ -59,7 +59,6 @@
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="Sawed0ff" revision="lollipop" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -106,7 +105,6 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -233,7 +231,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="Sawed0ff" revision="lollipop" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
