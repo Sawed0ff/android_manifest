@@ -20,6 +20,9 @@
  <remote name="cm"
         fetch="https://github.com/cyanogenmod/" />
         
+  <remote name="tm"
+        fetch="https://github.com/themuppets/" />
+        
  <remote  name="tv"
         fetch="https://github.com/Team-Validus/" />
            
@@ -431,7 +434,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="Sawed0ff" revision="lollipop" />
 
  <!--Vendor Repos-->
- <project path="vendor/lge" name="themuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
+ <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-12.1" />
 
    
   <!-- LINARO ROM TOOLCHAINS -->  
