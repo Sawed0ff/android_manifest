@@ -14,8 +14,8 @@
   <remote name="Sawed0ff"
         fetch="https://github.com/Sawed0ff/" /> 
         
-  <remote name="SafehouseLP"
-        fetch="https://github.com/SafehouseLP/" /> 
+  <remote name="SafeHouseLP"
+        fetch="https://github.com/SafeHouseLP/" /> 
 
  <remote name="cm"
         fetch="https://github.com/cyanogenmod/" />
