@@ -436,9 +436,7 @@
  <!--Vendor Repos-->
 
    
-  <!-- LINARO KERNEL TOOLCHAINS -->  
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
-
+  <!-- LINARO ROM TOOLCHAINS -->  
  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vr" revision="L5" />
 
  <project path="device/qcom/common" name="device_qcom_common" remote="Sawed0ff" revision="lollipop" />
