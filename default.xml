@@ -421,23 +421,7 @@
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-12.1" />
   
   <!-- Hardware for caf -->
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/cm" name="android_hardware_cm" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/invensense" name="android_hardware_invensense" remote="SafeHouseLP" revision="lollipop-5.1"  />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="SafeHouseLP" revision="lollipop-5.1"  />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="SafeHouseLP" groups="qcom,qcom_audio" revision="lollipop-5.1-caf" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="SafeHouseLP" revision="lollipop-5.1"  />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="SafeHouseLP"  revision="lollipop-5.1-caf" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="SafeHouseLP" revision="lollipop-5.1-caf" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="SafeHouseLP" revision="lollipop-5.1" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="SafeHouseLP"  revision="lollipop-5.1" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" remote="SafeHouseLP" revision="lollipop-5.1" />
+  
 
 
   <!--Additional Repos-->
