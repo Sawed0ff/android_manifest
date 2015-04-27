@@ -399,10 +399,7 @@
   <project path="system/extras/su" name="android_system_extras_su" remote="Sawed0ff" revision="lollipop" />
 
   <!-- Apps -->
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
 
-  
   <!--*********** CyanogenMod ********************-->
 
   <!-- External -->
