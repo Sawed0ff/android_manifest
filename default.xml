@@ -264,7 +264,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="Sawed0ff" revision="lollipop" />
+  
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -392,10 +392,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
  
 
- <!-- Custom projects -->
-  <project path="platform_manifest" name="android_manifest" remote="Sawed0ff" revision="lollipop" />
-
-  <!-- Su -->
+   <!-- Su -->
   <project path="system/extras/su" name="android_system_extras_su" remote="Sawed0ff" revision="lollipop" />
 
   <!-- Apps -->
@@ -429,7 +426,7 @@
 
   
   <!-- QCOM Sepolicy -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="Sawed0ff" revision="lollipop" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-12.1" />
 
  <!--Vendor Repos-->
  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
