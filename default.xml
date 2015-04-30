@@ -425,6 +425,7 @@
   
   <!--G3-->
   <project path="device/lge/ls990" name="android_device_lge_ls990" remote="Sawed0ff" revision="lollipop" />
+  <project path="device/lge/g3-common" name="android_device_lge_g3-common remote="cm" revision="cm-12.1" />
 
   
   <!-- QCOM Sepolicy -->
