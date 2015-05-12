@@ -417,7 +417,7 @@
   <!-- Hardware for caf -->
   
 
-
+ <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" revision="cm-12.1" />
   <!--Additional Repos-->
   
   <!--G3-->
